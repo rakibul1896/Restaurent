@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+/* ===============
+    --- Header---
+==================*/
+.headimage {
+  width: 100%;
+  height: 223px;
+  overflow: hidden;
+  background: #111111;
+}
+
+.headimage .imgFirst {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.headimage .imgSecond {
+  display: none;
+}
+.headContent {
+  width: 100%;
+  height: 481px;
+  background: #000000;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+.headContent .heading {
+  margin: 10px 0 36px 0;
+  font-size: 39px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.headContent .para1 {
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: lighter;
+  font-weight: 900;
+}
+.headContent .para2 {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+.headContent .headContent_btn {
+  margin: 40px 0;
+}
+
+.headContent_btn a {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 21px 0;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border: 1px solid #fff;
+  width: 245px;
+}
+
+.headContent_btn a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.headimage2 {
+  position: relative;
+}
+
+.headimage2 .headimage2_one {
+  width: 326px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+.headimage2 .headimage2_two {
+  display: none;
+}
+
+/* ===============
+    --- Top Body---
+==================*/
+
+.forEnjoyment_Middle_Sign {
+  background-color: #111111;
+  width: 30%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+.forEnjoyment {
+  margin-top: 350px;
+}
+.forEnjoyment2 {
+  margin-top: 48px;
+}
+
+.forEnjoyment_content h1,
+.forEnjoyment_content p {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.forEnjoyment_content h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.forEnjoyment_content p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.forEnjoyment_img_one {
+  width: 326px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+.forEnjoyment_img_two,
+.forEnjoyment_img_three {
+  display: none;
+}
+
+/* ===============
+--- Middle Body---
+==================*/
+
+.middle-body {
+  margin-top: 87px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.middle_body_about {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 80%;
+  margin: auto;
+}
+
+.middle_body_about h1 {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.middle_body_about p {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.middle_body_container {
+  width: 90%;
+  margin: auto;
+  padding: 40px 10px;
+  border-bottom: 1px solid #262626;
+}
+
+.middle_body_container img {
+  width: 100%;
+  height: 327px;
+}
+
+.middle_body_container h1 {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.middle_body_container p {
+  line-height: 25px;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+/* ===============
+--- Toggle Bar---
+==================*/
+
+.toggle_bar {
+  margin-top: 100px;
+}
+
+.toggle_bar_container {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.toggle_bar_image picture {
+  display: none;
+  text-align: center;
+}
+
+.toggle_bar_link {
+  margin: 25px 0;
+}
+.toggle_bar_link .tablink {
+  display: block;
+  position: relative;
+  margin: auto;
+  color: #000;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  border: hidden;
+  background: #fff;
+}
+
+.toggle_bar_link .tablink.js::after {
+  content: "";
+  position: absolute;
+  background: #fd958c;
+  width: 120px;
+  height: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 800%);
+}
+.toggle_bar_link .tablink:focus {
+  outline: none;
+}
+
+.toggle_bar_content {
+  display: none;
+  text-align: center;
+}
+
+.toggle_bar_content h1 {
+  font-size: 32px;
+  padding: 20px 0;
+}
+
+.toggle_bar_content p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.after_toggle_book_btn {
+  margin: 50px 0;
+}
+
+.after_toggle_book_btn a {
+  text-decoration: none;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  display: block;
+  display: block;
+  margin: auto;
+  border: hidden;
+  padding: 21px 0;
+  width: 245px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border: 1px solid black;
+}
+
+.after_toggle_book_btn a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ===============
+  ---  Footer ---
+==================*/
+
+/* Footer Image Container */
+
+.footer_image_container {
+  position: relative;
+  width: 100%;
+  height: 296px;
+  margin-top: 150px;
+}
+
+.footer_image_container img {
+  width: 100%;
+  height: 296px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer_image_container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.footer_image_container a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border: 1px solid #fff;
+  background: transparent;
+  text-decoration: none;
+  color: #fff;
+  padding: 21px 0;
+  letter-spacing: 3px;
+  width: 245px;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+.footer_image_container a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Footer Container */
+
+.footer_container {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.footer_container_content {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.footer_container_content h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.footer_container_content .adderss,
+.footer_container_content .open_time {
+  margin: 20px 0;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+/* =======================================  Media Quariy  ========================================== */
+
+@media screen and (min-width: 625px) {
+  /* ===============
+--- Media Header---
+==================*/
+
+  .headContent .heading {
+    margin: 10px 0 36px 0;
+    font-size: 39px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  .headContent .para1 span,
+  .headContent .para2 span {
+    display: block;
+  }
+  .headContent .headContent_btn {
+    margin: 30px 0;
+  }
+
+  .headimage2 .headimage2_one {
+    display: none;
+  }
+  .headimage2 .headimage2_two {
+    display: block;
+    width: 564px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+  }
+
+  /* ===============
+ ---Media Top Body---
+==================*/
+  .forEnjoyment_content {
+    margin: auto;
+    display: block;
+    width: 443px;
+  }
+  .forEnjoyment_content h1,
+  .forEnjoyment_content p {
+    text-align: center;
+  }
+
+  .forEnjoyment_img_one {
+    display: none;
+  }
+
+  .forEnjoyment_img_two {
+    width: 573px;
+    height: 360px;
+    display: block;
+    margin: auto;
+  }
+
+  /* ===============
+---Media Middle Body---
+==================*/
+
+  .middle_body_container {
+    width: 60%;
+    margin: auto;
+    padding: 40px 10px;
+    border-bottom: 1px solid #262626;
+  }
+  .middle_body_container img {
+    width: 227px;
+    height: 197px;
+  }
+
+  /* ===============
+---Media Toggle Bar---
+==================*/
+
+  .toggle_bar_link {
+    display: flex;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media screen and (max-width: 690px) {
+  /* ===============
+---Media Toggle Bar---
+==================*/
+
+  .toggle_bar_link {
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media screen and (min-width: 800px) {
+  /* ===============
+--- Media Header---
+==================*/
+
+  .headimage {
+    width: 100%;
+    height: 376px;
+  }
+  .headimage .imgFirst {
+    display: none;
+  }
+  .headimage .imgSecond {
+    margin: auto;
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1040px) {
+  /* ===================
+---Media Middle Body---
+=======================*/
+
+  .middle_body_container img {
+    width: 127px;
+    height: 97px;
+  }
+
+  .middle_body_container_content {
+    float: right;
+    width: 466px;
+    height: auto;
+    display: block;
+    margin: -24px;
+  }
+
+  .middle_body_container_content h1 {
+    font-size: 22px;
+    padding: 20px;
+  }
+
+  .middle_body_container_content p {
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  /* Footer Container */
+
+  .footer_container_content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .footer_container_content h1 {
+    padding: 30px 30px 30px 55px;
+  }
+}
