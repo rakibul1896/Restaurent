@@ -360,6 +360,81 @@
 
 /* =======================================  Media Quariy  ========================================== */
 
+@media screen and (min-width: 1040px) {
+  /* ===================
+---Media Middle Body---
+=======================*/
+
+  .middle_body_container img {
+    width: 127px;
+    height: 97px;
+  }
+
+  .middle_body_container_content {
+    float: right;
+    width: 466px;
+    height: auto;
+    display: block;
+    margin: -24px;
+  }
+
+  .middle_body_container_content h1 {
+    font-size: 22px;
+    padding: 20px;
+  }
+
+  .middle_body_container_content p {
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  /* Footer Container */
+
+  .footer_container_content {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+  .footer_container_content h1 {
+    padding: 30px 30px 30px 55px;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media screen and (min-width: 800px) {
+  /* ===============
+--- Media Header---
+==================*/
+
+  .headimage {
+    width: 100%;
+    height: 376px;
+  }
+  .headimage .imgFirst {
+    display: none;
+  }
+  .headimage .imgSecond {
+    margin: auto;
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media screen and (max-width: 690px) {
+  /* ===============
+---Media Toggle Bar---
+==================*/
+
+  .toggle_bar_link {
+    display: block;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
 @media screen and (min-width: 625px) {
   /* ===============
 --- Media Header---
@@ -442,75 +517,13 @@
 
 /* ------------------------------------------------------------------------- */
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 420px) {
   /* ===============
----Media Toggle Bar---
+---Media headimage2---
 ==================*/
-
-  .toggle_bar_link {
-    display: block;
-  }
+.headimage2 .headimage2_one {
+  width: 326px;
+  height: 350px;
+  transform: translate(-50%, -12%);
 }
-
-/* ------------------------------------------------------------------------- */
-
-@media screen and (min-width: 800px) {
-  /* ===============
---- Media Header---
-==================*/
-
-  .headimage {
-    width: 100%;
-    height: 376px;
-  }
-  .headimage .imgFirst {
-    display: none;
-  }
-  .headimage .imgSecond {
-    margin: auto;
-    display: block;
-  }
-}
-
-/* ------------------------------------------------------------------------- */
-
-@media screen and (min-width: 1040px) {
-  /* ===================
----Media Middle Body---
-=======================*/
-
-  .middle_body_container img {
-    width: 127px;
-    height: 97px;
-  }
-
-  .middle_body_container_content {
-    float: right;
-    width: 466px;
-    height: auto;
-    display: block;
-    margin: -24px;
-  }
-
-  .middle_body_container_content h1 {
-    font-size: 22px;
-    padding: 20px;
-  }
-
-  .middle_body_container_content p {
-    line-height: 25px;
-    font-size: 16px;
-    padding-bottom: 20px;
-  }
-
-  /* Footer Container */
-
-  .footer_container_content {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 30px;
-  }
-  .footer_container_content h1 {
-    padding: 30px 30px 30px 55px;
-  }
 }
